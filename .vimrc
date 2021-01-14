@@ -35,7 +35,7 @@ nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
 
 map <C-n> :NERDTreeToggle<CR>   
 
-" depending of mode change coursor width
+" depending on mode change coursors width
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
