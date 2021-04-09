@@ -1,0 +1,12 @@
+source ~/.vimrc
+
+set surround
+set commentary
+set easymotion
+set argtextobj
+set textobj-entire
+
+set scrolloff=5
+set showmode
+set ideajoin
+
