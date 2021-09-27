@@ -20,6 +20,8 @@ set relativenumber
 set timeoutlen=1000
 set ttimeoutlen=50
 set wildmenu
+set clipboard=unnamed
+
 
 command! MakeTags !ctags -R .
 
@@ -55,7 +57,6 @@ Plug 'tpope/vim-commentary'
 Plug 'christoomey/vim-sort-motion'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'preservim/nerdtree'
-Plug 'tpope/vim-fugitive'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'mbbill/undotree'
 
